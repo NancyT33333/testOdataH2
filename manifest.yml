@@ -1,0 +1,12 @@
+---
+applications:
+- name: odatav2-spring1234
+  path: target/ODataSpring-0.1.war
+  services:
+   - hanaservice2
+   #- mongo-service 
+  env:
+   SPRING_PROFILES_DEFAULT: cloud
+   #JBP_CONFIG_SPRING_AUTO_RECONFIGURATION: '{enabled: false}'
+ 
+ 

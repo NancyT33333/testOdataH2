@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<JPAEDMMappingModel
+	xmlns="http://www.apache.org/olingo/odata2/jpa/processor/api/model/mapping">
+	<PersistenceUnit name="ODataSpring">
+		<JPAEntityTypes>
+			<JPAEntityType name="Employee">
+				<EDMEntitySet>Employee</EDMEntitySet>
+				<JPAAttributes>
+					<JPAAttribute name="id">id</JPAAttribute>
+					</JPAAttributes>
+				<JPARelationships>
+				</JPARelationships>
+			</JPAEntityType>
+			
+		</JPAEntityTypes>
+		<JPAEmbeddableTypes>
+		</JPAEmbeddableTypes>
+	</PersistenceUnit>
+</JPAEDMMappingModel>
